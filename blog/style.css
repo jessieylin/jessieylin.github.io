@@ -1,0 +1,112 @@
+/*Lab 0: Style sheet for Blog*/
+@font-face {
+	font-family: "LeagueGothic-Regular";
+	src: url("type/LeagueGothic-Regular.otf");
+}
+
+html {height:100%;}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	height:100%;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+ul.link {
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+ul.link a {
+	text-decoration: none;
+	color: #000000;
+}
+
+ul.link a:hover{
+	color: #FF0066;
+}
+
+#title {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: LeagueGothic-Regular;
+	height: 80px;
+	min-width: 210px;
+	width: 66%;
+	float: left;
+}
+
+#nav {
+	margin: 0; padding: 0;
+	margin-top: 35px;
+	margin-bottom:25px;
+	text-transform: lowercase;
+	float:right;
+	height: 20px;
+	min-width: 210px;
+	width: 31.3%;
+}
+
+#nav li {
+	list-style-type: none;
+	float: right;
+	margin: 10px;
+}
+
+.sidebar {
+	margin: 0; padding: 0;
+	/*width: 20%;*/
+	width: 200px;
+	float: left;
+}
+
+.sidebar li {
+	list-style-type: none;
+	padding-bottom: 10px;
+}
+
+#article-list {
+	/*float: left;*/
+	width: 73%;
+	padding-left: auto;
+	padding-right: auto;
+	margin: 0;
+	margin-left: 250px;
+	
+}
+
+article.post {
+	margin-bottom:40px;
+}
+
+h5.date {
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 5px;
+}
+
+h2.post-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+	font-family: LeagueGothic-Regular;
+	margin: 0;
+	margin-bottom: 10px;
+
+}
