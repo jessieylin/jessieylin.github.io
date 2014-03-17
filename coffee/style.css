@@ -118,11 +118,13 @@ header {
 
 @media screen and (max-width: 700px) {
 	header{
-		height: 400px;
+		height: 410px;
 	}
 
 	#nav {
-		height: 124px;
+		height: 130px;
+		padding-top:10px;
+		padding-bottom:10px;
 	}
 
 	#nav li {
